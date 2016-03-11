@@ -42,7 +42,7 @@ public class SearchTest extends TestBase {
 	  //assertion
 	
 	  assertTrue(driver.getPageSource().contains(searchData));
-	  assertTrue("Failed to find div resultsStats",driver.getPageSource().contains(expectedResults));
+	  assertTrue("Failed to find search results",driver.getPageSource().contains(expectedResults));
 	  
 	  
   }
