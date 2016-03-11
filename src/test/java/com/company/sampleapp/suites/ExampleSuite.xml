@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Verify a Suite of Items" parallel="tests">
+	
+
+	<test name="Deminstrating Test Structure using Google Search">
+		<classes>
+			<class name="com.company.sampleapp.tests.SearchTest" >
+  
+			  </class>
+			
+		</classes>
+	</test> 
+
+
+</suite>
