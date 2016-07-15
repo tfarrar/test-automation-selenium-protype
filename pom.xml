@@ -9,54 +9,14 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<selenium.version>2.44.0</selenium.version>
 	</properties>
-    <repositories>
-    <repository>
-      <id>libs release</id>
-      <url>http://dac21654nlg300.msat.local/artifactory/libs-release</url>
-      <releases/>
-      <snapshots> 
-            <enabled>false</enabled>      
-      </snapshots>  
-    </repository>
-    <repository>
-      <id>libs snapshot</id>
-        <url>http://dac21654nlg300.msat.local/artifactory/libs-snapshot</url>
-        <releases>
-            <enabled>false</enabled>
-        </releases>
-    </repository>
- </repositories>
+
   
-    <distributionManagement>
-        <repository>
-            <id>verizon-buld-local</id>
-            <name>build respository</name>
-            <url>ttp://dac21654nlg300.msat.local/artifactory/libs-snapshot</url>
-        </repository>
-    </distributionManagement> 
+
     
     
     <dependencies>
-        <dependency>
-		    <groupId>com.verizon.cloud</groupId>
-		    <artifactId>VCCAPI</artifactId>
-		    <version>0.0.1-SNAPSHOT</version>
-		</dependency>
-        <dependency>
-		  <groupId>com.verizon.shield</groupId>
-		  <artifactId>Shield</artifactId>
-		  <version>0.0.1</version>
-  		</dependency>
-        <dependency>
-		    <groupId>com.verizon</groupId>
-			<artifactId>devops</artifactId>
-			<version>0.0.2</version>
-		</dependency>
-		<dependency>
-		    <groupId>com.verizon.qa</groupId>
-		    <artifactId>test-automation-selenium-core</artifactId>
-		    <version>0.0.1-SNAPSHOT</version>
-		</dependency>  
+      
+        
 		<dependency>
 			<groupId>org.uncommons</groupId>
 			<artifactId>reportng</artifactId>
