@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.verizon.qa</groupId>
+  <groupId>com.company</groupId>
   <artifactId>test-automation-selenium-prototype</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>test-automation-selenium-core</name>
@@ -8,15 +8,28 @@
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<selenium.version>2.44.0</selenium.version>
+		<testng.version>6.9.10</testng.version>
+		<suite.xmls>src/test/resources/ExampleSuite.xml</suite.xmls>
 	</properties>
 
+  
   
 
     
     
     <dependencies>
       
-        
+                <dependency>
+		   <groupId>org.seleniumhq.selenium</groupId>
+		   <artifactId>selenium-java</artifactId>
+		   <version>${selenium.version}</version>
+		  </dependency>
+		  <dependency>
+		   <groupId>org.testng</groupId>
+		   <artifactId>testng</artifactId>
+		   <version>${testng.version}</version>
+		   <scope>test</scope>
+		  </dependency>
 		<dependency>
 			<groupId>org.uncommons</groupId>
 			<artifactId>reportng</artifactId>
