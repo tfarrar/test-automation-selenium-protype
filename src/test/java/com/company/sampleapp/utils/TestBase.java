@@ -123,8 +123,8 @@ public class TestBase {
 		} else if (browserName.toLowerCase().contains("chrome")) {
 
 			// CopyFileFromJar myExe = new CopyFileFromJar();
-			// myExe.ExportResource("/drivers/chromedriver2.12.exe");
-			String filePathLocal = "src/test/resources/chromedriver2.12.exe";
+			// myExe.ExportResource("/drivers/chromedriver.exe");
+			String filePathLocal = "src/test/resources/chromedriver.exe";
 			String filePathJenkins = "target/test-classes/chromedriver2.12.exe";
 
 			File f = new File(filePathLocal);
