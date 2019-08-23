@@ -48,8 +48,9 @@ public class SearchPage {
 		txtSearchTerm.clear();
 		txtSearchTerm.sendKeys(strSearchTerm);
 		wait.until(ExpectedConditions.elementToBeClickable(btnG));
-		btnG.click();
-		wait.until(ExpectedConditions.visibilityOf(resultStats));
+		txtSearchTerm.sendKeys(Keys.ENTER);
+		//wait.until(ExpectedConditions.elementToBeClickable(btnG));
+		//btnG.click();
 		return this;		
 		
 	}
