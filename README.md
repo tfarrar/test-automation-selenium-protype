@@ -18,3 +18,7 @@ Import project as Maven build
 Right click pom.xml   Run As>Maven Build
 Goal = clean install
 
+
+Check out the two reports
+test-automation-selenium-protype\target\surefire-reports\html\index.html
+test-automation-selenium-protype\target\surefire-reports\emailable-report.html
