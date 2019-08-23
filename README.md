@@ -21,5 +21,6 @@ Goal = clean install
 
 
 Check out the two reports
-test-automation-selenium-protype\target\surefire-reports\html\index.html
+
+test-automation-selenium-protype\target\surefire-reports\html\index.html<br>
 test-automation-selenium-protype\target\surefire-reports\emailable-report.html
