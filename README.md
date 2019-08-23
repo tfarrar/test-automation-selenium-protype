@@ -6,6 +6,7 @@ Add JAVA_HOME parameter to windows environment variable
 Add Java JDK bin to windows environment variable Path
 
 Download eclipse latest version install
+
 Open Eclipse go to Help > Install Software 
 Click Add
 Enter Name: TestNG Location: http://beust.com/eclipse
